@@ -203,7 +203,37 @@ height: 4px;
 
 /*featured products end */
 
+/* newsletter start*/
+.newsletter-section {
+    background-image: url('../img/newsletterbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 50px;
+}
+.newsletter-section h2 {
+    color: #151875;
+    padding-top: 50px;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
 
+.newsletterlink a{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/* newsletter end*/
 
 /* footer start*/
 footer {
