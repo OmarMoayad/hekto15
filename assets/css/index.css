@@ -235,6 +235,20 @@ height: 4px;
 }
 /* newsletter end*/
 
+/* brands section start*/
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    padding: 50px 0;
+    width: 100%;
+}
+
+/* brands section end*/
+
+
 /* footer start*/
 footer {
     background: #EEEFFB;
