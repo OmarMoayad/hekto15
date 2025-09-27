@@ -459,6 +459,70 @@ color: #151875;
     width: 20%;           
     margin: 0 auto;}
 /*SHOPEX*/
+/*trending products start*/
+.trendingproductstitle {
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    color:#151875;  
+}
+.trendingproductsviewall {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 45px;
+    margin-bottom: 120px;
+}
+
+.trendingproductcard{
+    
+    width: 220px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    
+}
+
+.trendingproductcard img {
+    padding-top: 10px;
+    width: 80%;
+    height: 200px;
+    
+}
+.trendingproductcard-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+.trendingproductcard-text h3 {
+    font-size: 20px;
+    color:#151875;
+}
+.trendingpricesort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.trendingprice{
+    color: #151875;
+    font-size: 16px;
+    font-weight: bold;
+}
+.trendingpricedis {
+    color: #1518754D;
+    font-size: 14px;
+    text-decoration: line-through;
+    
+}
+/*trending products END*/
 /* newsletter start*/
 .newsletter-section {
     background-image: url('../img/newsletterbackground.jpg');
@@ -495,6 +559,7 @@ color: #151875;
 
 .logos {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px; 
