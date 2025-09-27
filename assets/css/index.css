@@ -523,6 +523,99 @@ color: #151875;
     
 }
 /*trending products END*/
+
+/* Top categories start*/
+.Top-categoriestitle {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px; 
+    margin-top: 129px;
+    font-size: 42px;
+    color:#151875;  
+}
+.Top-categoriescard{
+    text-align: center;
+    color: #151875;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Top-categoriescard span{
+    font-size: 16px;
+}
+.Top-categoriesviewall {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 45px;
+    margin-bottom: 120px;
+}
+
+.Top-categoriescardimg{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #31208A0D;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.Top-categoriescardimg::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    width: 60%;
+    height: 60%;
+    border-bottom-left-radius: 100% 100%;
+    border-left: 8px solid #6b24bc;  
+    border-bottom: 8px solid #6b24bc;
+    opacity: 0;
+    transition: opacity 0.4s;
+    pointer-events: none;
+    z-index: 2;
+    background: transparent;
+}
+
+.Top-categoriescard:hover .Top-categoriescardimg::before {
+    opacity: 1;
+}
+
+.Top-categoriescard img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.Top-categorieslink{
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    margin-top: 10px;
+    position: static;
+    display: block;
+}
+.Top-categoriescard:hover .Top-categorieslink {
+    opacity: 1;
+}
+.Top-categorieslink a{
+    background-color: #08D15F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+    transition: background 0.3s;
+}
+/* Top categories end*/
 /* newsletter start*/
 .newsletter-section {
     background-image: url('../img/newsletterbackground.jpg');
