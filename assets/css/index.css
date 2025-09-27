@@ -336,8 +336,8 @@ height: 4px;
     bottom:140px;
     right: 120px;
     z-index: 3;
-    width: 10px;      /* smaller width */
-    height: 20px;     /* keep aspect ratio */
+    width: 10px;    
+    height: 20px;    
     object-fit: none;
     
     opacity: 0;
@@ -426,7 +426,39 @@ color: #151875;
 }
 /*latest products end*/
 
-
+/*SHOPEX*/
+.shoppexheader{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px; 
+    margin-top: 129px;
+    font-size: 42px;
+    color:#151875;  
+}
+.shoppexcards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    width:100%;
+    justify-content: center; 
+    align-items: center;
+}
+.shoppexcard{
+    height: 250px;
+    width: 220px;
+    background-color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.shoppexcard img {
+    width: 20%;           
+    margin: 0 auto;}
+/*SHOPEX*/
 /* newsletter start*/
 .newsletter-section {
     background-image: url('../img/newsletterbackground.jpg');
